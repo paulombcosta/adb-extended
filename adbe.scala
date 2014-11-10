@@ -57,7 +57,6 @@ def handleMultipleSelection(args: List[String]) = {
 
   if (isAllDigits(optionSelected)) {
     val index = optionSelected.toInt - 1
-    println("index " + index)
     if (index < deviceInfo.length && index >= 0 ) {
       runOnDevice(args, deviceInfo(index).split("\\s").filter(!_.isEmpty)(0))
     }
