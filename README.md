@@ -18,8 +18,8 @@ devices or on all of them.
 ## Installing
 
 * Clone the project.
-* rename to adbe if you like, and add to the path
-* run at least once as root so the .jar can be generated and speed up a LOT the. next builds.
+* Rename to adbe if you like, and add to the path.
+* Run at least once as root so the .jar can be generated and speed up a LOT the. next builds.
 
 ## Requirements
 * scala and adb both on PATH.
